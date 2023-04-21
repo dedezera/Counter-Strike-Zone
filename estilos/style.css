@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body,
+html {
+    background-color: #1E1E26;
+    color: white;
+}
+
+header {
+    background-color: #1E1E26;
+}
+
+header>h1 {
+    padding: 30px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+header a {
+    text-align: center;
+}
+
+menu {
+    display: none;
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+menu>ul>li>a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #1E1E26;
+    border-top: 2px solid rgba(80, 80, 80, 0.466);
+}
+
+menu>ul>li>a:hover {
+    background-color: #464a50;
+}
+
+main { 
+    padding: 80px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #282830;
+    width: 90vw;
+    margin: auto;
+}
+
+article>h2 {
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+
+article>p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+
+i#burguer {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: #1B1F23;
+}
+
+figure {
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    margin: 30px;
+    padding: 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    margin-top: 10px;
+    color: black;
+}
+
+.iframe1 {
+    text-align: center;
+    padding: 50px;
+}
+
+.iframe2 {
+    text-align: center;
+    padding: 50px;
+}
+
+.tweet-fallen {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 20px 50px;
+  }

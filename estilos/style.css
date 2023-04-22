@@ -16,19 +16,23 @@ html {
 }
 
 header {
+    background-color: #232B33;
+    text-align: center;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 9999;
-    background-color: #232B33;
-    text-align: center;
+    z-index: 1;
   }
+
+article {
+    padding-top: 150px;
+}
 
 header>h1 {
     padding: 30px;
     color: #fff;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif; 
 }
 
 header a {

@@ -9,7 +9,7 @@ Desktop: 992px até 1200px
 Grandes teals: acima de 1200px
 */
 
-@media screen and (min-width: 768px){
+@media screen and (max-width: 762px){
     i#burguer {
         display: none;
     }
@@ -23,7 +23,7 @@ Grandes teals: acima de 1200px
     }
 
     main {
-        
+        font-size: 1.3em;
         min-width: 320px;
         max-width: 800px;
         margin: auto;

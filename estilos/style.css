@@ -20,7 +20,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 9999;
-    background-color: #201F24;
+    background-color: #232B33;
     text-align: center;
   }
 
@@ -49,7 +49,7 @@ menu>ul>li>a {
     padding: 10px;
     text-decoration: none;
     color: white;
-    background-color: #1E1E26;
+    background-color: #232B33;
     border-top: 2px solid rgba(80, 80, 80, 0.466);
 }
 
@@ -209,7 +209,7 @@ td.Nfrag {
     right: 20px;
     width: 50px;
     height: 50px;
-    background-color: rgba(158, 146, 158, 0.5);
+    background-color: rgba(0, 0, 0, 0.986);
     border-radius: 50%;
     display: flex;
     flex-direction: row;
@@ -219,7 +219,7 @@ td.Nfrag {
 }
 
 .arrow {
-    border: solid 1px #000000;
+    border: solid 1px #ffffff;
     border-width: 0px 7px 7px 0px;
     padding: 4px;
     display: inline-block;

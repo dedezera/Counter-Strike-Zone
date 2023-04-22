@@ -129,8 +129,44 @@ div.video > iframe {
 }
 
 table {
+    border-collapse: collapse;
+    background-color: #232D38;
     margin: 0 auto;
-    padding-top: 100px;
-    
+    overflow-x: auto;
 }
 
+div.table2 {
+    margin: 0 auto;  
+}
+
+th, td {
+    border: 1px solid rgba(255, 255, 255, 0.753);
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    cursor: pointer;
+}
+
+th img {
+    width: 15px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+caption {
+    margin: 30px;
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: #2D3844;
+}
+
+td.frag {
+    color: rgb(120, 177, 5);
+}
+
+td.Nfrag {
+    color: rgba(214, 12, 12, 0.705);
+}

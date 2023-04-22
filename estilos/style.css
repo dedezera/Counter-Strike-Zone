@@ -16,9 +16,13 @@ html {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
     background-color: #201F24;
     text-align: center;
-}
+  }
 
 header>h1 {
     padding: 30px;

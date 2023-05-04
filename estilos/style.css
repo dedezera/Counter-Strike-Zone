@@ -22,7 +22,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 1;
-  }
+}
 
 article {
     padding-top: 150px;
@@ -32,7 +32,7 @@ header>h1 {
     padding: 30px;
     color: #fff;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    font-family: 'Merriweather Sans', sans-serif; 
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 header a {
@@ -43,7 +43,7 @@ header a {
 .material-symbols-outlined {
     text-align: start;
 }
-    
+
 
 menu {
     display: none;
@@ -66,7 +66,7 @@ menu>ul>li>a:hover {
     background-color: #464a50;
 }
 
-main { 
+main {
     padding: 30px;
     background-color: #ffffff;
     border-radius: 10px;
@@ -74,7 +74,7 @@ main {
     min-width: 280px;
     max-width: 800px;
     margin: auto;
-    
+
 }
 
 img {
@@ -101,6 +101,10 @@ i#burguer {
 
 i#burguer:hover {
     background-color: #1B1F23;
+}
+
+.material-icons {
+    color: #F0F0F0;
 }
 
 figure {
@@ -130,7 +134,7 @@ div.video {
     position: relative;
 }
 
-div.video > iframe {
+div.video>iframe {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -143,7 +147,7 @@ div.video > iframe {
     margin: 0 auto;
     text-align: center;
     padding: 20px 20px 50px;
-  }
+}
 
 .tweet-sk {
     width: 70%;
@@ -177,10 +181,11 @@ caption {
 }
 
 div.table2 {
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
-th, td {
+th,
+td {
     border: 1px solid rgba(255, 255, 255, 0.753);
     padding: 10px;
     text-align: left;
@@ -201,7 +206,7 @@ caption {
     margin: 30px;
 }
 
-tbody > tr:nth-child(2n) {
+tbody>tr:nth-child(2n) {
     background-color: #2D3844;
 }
 
@@ -247,12 +252,12 @@ footer {
     display: flex;
 }
 
-footer > .boxs {
+footer>.boxs {
     width: 320px;
     min-height: 150px;
     padding: 20px;
 }
-    
+
 
 .boxs h2 {
     color: #fff;
@@ -261,17 +266,22 @@ footer > .boxs {
     text-shadow: 1px 1px #00000054;
 }
 
-.boxs ul, ui {
+.boxs ul,
+ui {
     margin: 10px 0px;
     list-style: none;
 }
 
-.boxs ul, li, a {
+.boxs ul,
+li,
+a {
     color: #ddd;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
 
-.boxs ul, li, a:hover {
+.boxs ul,
+li,
+a:hover {
     color: #fff;
 }

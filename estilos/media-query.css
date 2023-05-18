@@ -34,6 +34,14 @@ Grandes teals: acima de 1200px
 }
 
 @media screen and (max-width: 660px){
+    body {
+        font-size: 1rem;
+    }
+
+    article h2 {
+        padding-top: 50px;
+    }
+
     footer {
         width: 100%;
         min-height: 250px;
